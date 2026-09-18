@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Trellis",
+    "slug": "trellis",
+    "scheme": "trellis",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.trellis"
+    },
+    "android": {
+      "package": "com.yourname.trellis"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png"
+        }
+      ]
+    ]
+  }
+}

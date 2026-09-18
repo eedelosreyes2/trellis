@@ -20,7 +20,8 @@
         {
           "icon": "./assets/notification-icon.png"
         }
-      ]
+      ],
+      "expo-asset"
     ]
   }
 }
